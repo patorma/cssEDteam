@@ -1,0 +1,29 @@
+/* Estos son los estilos de los títulos*/
+
+
+/*h1 {
+    color: white;
+    background: red;
+    width: 200px;
+    margin: 2em; 
+}*/
+
+
+/* Variables CSS (custom properties) */
+
+:root {
+    --color: purple;
+}
+
+h1 {
+    color: var(--color);
+    font-size: 1em;
+}
+
+p {
+    color: var(--color);
+}
+
+ul {
+    color: red;
+}
