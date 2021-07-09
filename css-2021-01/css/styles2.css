@@ -1,0 +1,78 @@
+/* Selectores
+
+selector {
+    propiedad1: valor1;
+    propiedad2: valor2;
+}
+
+1. Selectores simples (una palabra)
+    h1 {}
+2. Selectores compuestos (más de una palabra)
+    h1 span {}
+3. Selectores con operadores 
+    h1 + span
+
+4. Pseudoclases (selectores de estado, se aplican cuando algo cambia)
+*/
+
+
+/* Selectores simples: etiqueta, tipo o elemento
+ Son etiquetas HTML
+*/
+
+h1 {
+    /* margin: 10px; */
+}
+
+p {
+    color: blue;
+}
+
+
+/*Selectores simples: clases
+se indican con un punto y el nombre de la clase 
+ * No pueden comenzar con numero
+ * Pueden comenzar con - o _
+ * Pueden tener : 
+ * Pueden ser de una letra
+*/
+
+.title {
+    color: green;
+}
+
+.description {
+    color: red;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.purple {
+    color: purple;
+}
+
+.button {
+    display: inline-block;
+    padding: .75em 2em;
+    background: steelblue;
+    /*azul cero*/
+    color: white;
+    border-radius: .25em;
+}
+
+
+/* Selector de id (simple)*/
+
+#title {
+    background: pink;
+}
+
+h1 {
+    background: yellow;
+}

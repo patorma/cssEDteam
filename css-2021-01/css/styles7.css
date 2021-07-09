@@ -1,0 +1,51 @@
+/* Selectores de atributo.
+ Usan []
+ [attr = "value"]
+ [attr]
+ */
+
+
+/* [type="text"] {
+    border: 1px solid red;
+}
+
+[type="number"] {
+    border: 1px solid green;
+} */
+
+[required] {
+    border: 1px solid red;
+}
+
+[type="submit"] {
+    background: steelblue;
+    border: none;
+    color: white;
+}
+
+
+/* Comienza con [attr^="value"] */
+
+[type^="sub"] {
+    background: green;
+}
+
+a[href^="http://"] {
+    color: red;
+    border-bottom: 1px dashed red;
+}
+
+
+/* Termina con [attr$="value"]*/
+
+a[href$=".mp4"] {
+    background: red;
+}
+
+
+/* Contiene [attr*="value]*/
+
+a[href*="team"] {
+    color: white;
+    background: blue;
+}

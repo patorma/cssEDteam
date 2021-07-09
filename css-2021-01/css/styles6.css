@@ -1,0 +1,37 @@
+body div span {}
+
+
+/* Operadores * > + ~*/
+
+
+/* * = selector universal, > = hijo directo , + = hermano siguiente y ~ = hermanos siguientes*/
+
+* {
+    /* margin: 0;
+    font-size: 1em; */
+    /* color: orange;
+    background: orange;
+    ; */
+}
+
+
+/*relacion directa de hijo*/
+
+p>span {
+    color: green;
+    background: yellow;
+}
+
+
+/*¨hacer que el primer div se le aplique estilo se toma el hermano siguiente del p que seria el div 1*/
+
+p+div {
+    border: 1px solid;
+}
+
+
+/*hermanos siguientes: selecciona todos los hermanos que vienen despues de un elemento*/
+
+p~div {
+    background: yellow;
+}

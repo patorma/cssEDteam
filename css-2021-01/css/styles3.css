@@ -1,0 +1,7 @@
+/* Selectores compuestos: agrupados*/
+
+h1,
+.button,
+p {
+    color: red;
+}

@@ -1,0 +1,16 @@
+h1,
+.button,
+p {
+    color: red;
+}
+
+h1.title {
+    color: green;
+}
+
+
+/*Selectores compuestos: descendientes*/
+
+body div span {
+    color: blue;
+}

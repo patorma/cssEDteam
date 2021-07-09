@@ -1,0 +1,11 @@
+/* Selectores compuestos: combinados*/
+
+h1,
+.button,
+p {
+    color: red;
+}
+
+h1.title {
+    color: green;
+}
