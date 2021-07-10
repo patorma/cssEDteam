@@ -1,0 +1,95 @@
+/* Principios de CSS
+
+ 1. Especificidad
+ 2. Cascada 
+ 3. Herencia
+
+ Estos conceptos nos ayudan a entender como funciona CSS, como resuelve los conflictos y cómo se definen las arquitecturas CSS.
+ 
+ * SMACSS
+ * OOCSS
+ * ITCSS
+*/
+
+
+/* 
+1. Especificidad 
+
+    Generaral
+----------------
+ -------------
+  -----------
+   --------
+     ----
+      -- 
+    Especifico
+
+    Etiquetas y pseudoelementos:        1
+    Clases, atributos y pseudoclases:   10
+    Id:                                 100
+    Estilos en linea:                   1000
+
+*/
+
+h1 {
+    color: red;
+}
+
+.title {
+    color: green;
+}
+
+#title {
+    color: blue;
+}
+
+h1.title {
+    color: yellow;
+}
+
+h1#title {
+    color: purple;
+}
+
+h1#title.title {
+    color: steelblue;
+}
+
+body>h1#title.title {
+    color: magenta;
+}
+
+h1 {
+    color: red;
+    /*1*/
+}
+
+.title {
+    color: red;
+    /* 10 */
+}
+
+h1.title {
+    color: red;
+    /* 11*/
+}
+
+#title {
+    color: red;
+    /* 100*/
+}
+
+h1#title {
+    color: red;
+    /* 101*/
+}
+
+h1.title#title {
+    color: red;
+    /*111*/
+}
+
+body>h1.title#title {
+    color: red;
+    /*112*/
+}
