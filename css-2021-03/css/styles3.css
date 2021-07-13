@@ -1,0 +1,39 @@
+/* Herencia : Es la capacidad que tienen los elementos
+    HTML de heredar los estilos de sus padres o ancestros
+
+    inherit
+    initial con las dos palabras anteriores se puede sobreescribir la herencia
+*/
+
+body {
+    /* color: blue; */
+    /* font-size: 2em;
+    text-align: center; */
+}
+
+h2 {
+    /* Se sobreescribe la herencia de body*/
+    color: red;
+}
+
+ul {
+    color: green;
+}
+
+.last {
+    color: orange;
+}
+
+p {
+    color: red;
+}
+
+a {
+    color: inherit;
+}
+
+span {
+    /* no herede de su papa sino tenga su valor inicial */
+    font-size: initial;
+    font-weight: initial;
+}

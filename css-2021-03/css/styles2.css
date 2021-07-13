@@ -1,0 +1,18 @@
+/* Cascada Los estilos que vienen depues sobreescriben a los anteriores*/
+
+.title {
+    color: red;
+    color: green;
+}
+
+.title {
+    color: blue;
+}
+
+h1 {
+    color: purple;
+}
+
+#title {
+    color: steelblue;
+}
