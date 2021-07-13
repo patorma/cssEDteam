@@ -1,0 +1,68 @@
+/*
+  Box model 
+
+  Layout model 
+        Box model
+        Position
+        Flexbox
+        CSS grid
+
+
+ Box model (modelo de caja)
+ Todos los elementos HTML son rectángulos 
+
+ Dos tipos de cajas (o elementos)
+      
+    * Bloque
+        * Ocupa todo el espacio horizontal disponible
+        * Crean una linea nueva
+        * Tienen ancho (width) y alto (height)
+    * Inline (en línea)
+        * Ocupan solo el espacio necesario para su contenido
+        * No tienen dimensiones. (se ajustan al contenido) a excepción de imagenes
+
+    * Unidades de longitud (medida de tamaño)
+        * Pixeles (px)
+        * em (% del tamaño fuente o letra actual)
+        * rem (% del tamaño de fuente o letra de body)
+    
+*/
+
+
+/* Bloque*/
+
+
+/* h1 {
+    background: yellow;
+    width: 8rem;
+    height: 100px;
+}
+
+p {
+    background: pink;
+    width: 8rem;
+} */
+
+
+/* En linea*/
+
+h1 {
+    background: yellow;
+    /* width: 8rem;
+    height: 100px; */
+}
+
+p {
+    background: pink;
+    /* width: 8rem; */
+}
+
+span {
+    background: yellow;
+    width: 600%;
+    height: 300px;
+}
+
+img {
+    width: 200px;
+}
