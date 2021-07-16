@@ -1,0 +1,40 @@
+h1 {
+    background: yellow;
+    /* width: 8rem;
+    height: 100px; */
+}
+
+p {
+    background: pink;
+    display: inline-block;
+    display: none;
+    height: 50px;
+    width: 120px;
+    /* width: 8rem; */
+}
+
+span {
+    background: yellow;
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+img {
+    width: 200px;
+    display: none;
+}
+
+
+/* Propiedad display
+     block (el elemento sera de bloque  y no me importa sino lo es)
+     inline (va a ser de linea)
+     inline-block (va a tener comportamiento como si fuera de linea y tambien como si fuera de bloque)
+     none: no se va a mostrar
+     * flex
+     * grid
+
+
+
+
+*/
