@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+    /*evita que el navegador agregue padding y margin*/
+    box-sizing: border-box;
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    background: yellow;
+    color: red;
+    /* El bord es parte de la caja*/
+    /* border: 1px solid black; */
+    /* es un shorthand es una sola propiedad que agrupa a varias propiedades
+      border-width
+      border-style
+      border-color
+      dashed segmento de linea (_ _ _)
+      dotted (punteado ...) y double dos lineas
+    */
+    /* border-width: 4px 8px 16px 32px;
+    border-style: solid dashed dotted double; */
+    /* si no se aplica border-color muestra el color del elemento en este caso es negro*/
+    /* border-color: black blue red brown; */
+    /* border-top-width: 20px;
+    border-top-style: dashed;
+    border-top-color: black; */
+    border-top: 20px dashed black;
+    /* border-right-width: 10px;
+    border-right-style: solid;
+    border-right-color: red; */
+    border-right: 10px solid red;
+    /* border-bottom-width: 15px;
+    border-bottom-style: double;
+    border-bottom-color: blue; */
+    border-bottom: 15px double blue;
+    /* border-left-width: 30px;
+    border-left-style: dotted;
+    border-left-color: purple; */
+    border-left: 30px dotted purple;
+}
+
+
+/* subrayar un texto con border*/
+
+h1 {
+    border: 20px solid;
+    border-color: transparent;
+    border-left-color: red;
+    display: inline-block;
+    padding: 0;
+    /* line-height: 1; */
+}
