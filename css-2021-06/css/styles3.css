@@ -1,5 +1,6 @@
 /* :target :not :empty
-:target permite seleccionar un elemento que es destino cuando se pulsa un enlace
+:target permite seleccionar un elemento que es destino cuando se pulsa un enlace.
+:not lo que hace es negar una condicion
 */
 
 a:visited {
@@ -20,4 +21,28 @@ a:active {
 
 .secreto:target {
     display: block;
+}
+
+p:not(.p2) {
+    color: red;
+}
+
+p {
+    margin: 0;
+}
+
+
+/*last-child (último hijo)*/
+
+p:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+
+/*problematica aplicar el estilo a todos los elementos menos al último*/
+
+div {
+    background: yellow;
+    padding: 1em;
+    width: 200px;
 }
