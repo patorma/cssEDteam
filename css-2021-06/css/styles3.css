@@ -1,6 +1,7 @@
 /* :target :not :empty
 :target permite seleccionar un elemento que es destino cuando se pulsa un enlace.
-:not lo que hace es negar una condicion
+:not lo que hace es negar una condicion y
+:empty detecta cuando un elemento esta vacio
 */
 
 a:visited {
@@ -45,4 +46,8 @@ div {
     background: yellow;
     padding: 1em;
     width: 200px;
+}
+
+div:empty {
+    padding: 0;
 }
