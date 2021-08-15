@@ -39,7 +39,9 @@ h1 {
 }
 
 
-/* :hover :active :visited (se refieren a los enlaces)*/
+/* :hover :active :visited (se refieren a los enlaces)
+:active: se activa al hacer click en el enlace
+:visited: indica que un enlace ha sido visitado */
 
 .box {
     background: yellow;
@@ -48,8 +50,28 @@ h1 {
     transition: all .3s;
 }
 
+.box p {
+    /* display: none; */
+}
+
+.box:hover p {
+    /* display: block; */
+}
+
 .box:hover {
-    background: pink;
+    /* background: pink;
     width: 300px;
-    height: 180px;
+    height: 180px; */
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: red;
 }

@@ -1,0 +1,19 @@
+/* :target :not :empty
+:target permite seleccionar un elemento que es destino cuando se pulsa un enlace
+*/
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: red;
+}
+
+p:target {
+    color: red;
+}
