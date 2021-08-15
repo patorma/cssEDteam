@@ -1,0 +1,39 @@
+/* Pseudoclases
+
+Permiten seleccionar elementos según su estado o alguna condición.
+Se indican con dos puntos :
+
+
+*/
+
+
+/* :hover {
+    background: yellow;
+} */
+
+
+/*h1:hover {
+     background: yellow; 
+}*/
+
+
+/* h1 :hover {
+     background: yellow; 
+} */
+
+
+/*elemento HTML*/
+
+
+/* root tiene especifidad de 10 por eso se pone en vez de HTML*/
+
+
+/*es conveniente declarar las variables en root representar un elemento de mayor nivel*/
+
+:root {
+    --color: pink;
+}
+
+h1 {
+    background: var(--color);
+}
