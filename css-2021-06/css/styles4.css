@@ -16,6 +16,35 @@ li:last-child{
     background: yellow;
 } */
 
-li:last-child {
+
+/* div :first-child {
+    background: red;
+} */
+
+
+/*se pone h2 como primer hijo*/
+
+
+/* h2:first-child {
+    background: red;
+} */
+
+
+/*se pone h3 como último hijo*/
+
+
+/* h3:last-child {
+    background: red;
+} */
+
+
+/*problematica encontrar el primer p y último p.
+La forma de solucionarlo es con : 
+:first-of-type :last-of-type
+
+
+*/
+
+p:last-of-type {
     background: red;
 }
