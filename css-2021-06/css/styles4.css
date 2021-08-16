@@ -1,0 +1,21 @@
+/* :first-child :last-child*/
+
+
+/*Selecciona el primer o ultimo hijo (respectivamente) de algún elemento HTML determinado. Si seleccionas desde el padre se debe dejar un espacio entre el selector y la pseudoclase:
+ul :first-child{
+	color: red;
+}
+Mientras que si seleccionas desde el hijo no es necesario:
+
+li:last-child{
+	color: red;
+}*/
+
+
+/* ul :last-child {
+    background: yellow;
+} */
+
+li:last-child {
+    background: red;
+}

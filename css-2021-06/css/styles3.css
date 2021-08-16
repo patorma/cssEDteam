@@ -42,12 +42,17 @@ p:not(:last-child) {
 
 /*problematica aplicar el estilo a todos los elementos menos al último*/
 
-div {
+
+/*Identificar elementos que no tengan elementos (que no esten vacios)*/
+
+div:not(:empty) {
     background: yellow;
     padding: 1em;
     width: 200px;
 }
 
+
+/* 
 div:empty {
     padding: 0;
-}
+} */
