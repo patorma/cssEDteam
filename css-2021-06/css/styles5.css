@@ -155,7 +155,17 @@ p:nth-last-child(2n+1){
     display: none;
 } */
 /*Ocultar a partir del 5 pero al revés con last*/
-p:nth-last-child(n+5){
+/* p:nth-last-child(n+5){
     background: yellow;
     display: none;
+} */
+
+/*Seleccionar todos los elementos pares a partir del 5to */
+/* p:nth-child(n+5):nth-child(even){
+    background: yellow;
+} */
+
+/*Seleccionar todos los elementos que sean impares y a la vez mutiplos de 3*/
+p:nth-child(odd):nth-child(3n){
+    background: yellow;
 }
