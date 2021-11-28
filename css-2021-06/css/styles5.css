@@ -54,8 +54,17 @@ p:first-of-type {
 /* :nth-child()  :nth-last-child() se encuentra un 
 hijo o el ultimo hijo según su posicion
 
-selecciona pares e impares
-a) :nth-child(even) b) :nth-child(odd)
+1) selecciona pares e impares
+a) :nth-child(even) b) :nth-last-child(odd)
+
+2) seleccionar a partir de una posicion
+a) :nth-child(X) b) :nth-last-child(X)
+
+3) utilizar un multiplo, donde n es un número entero que empezara de 0,1,2....n
+a) :nth-child(Xn) b) :nth-last-child(Xn)
+
+4)
+a) :nth-child(Xn+-Y) b) :nth-last-child(Xn+-Y)
 
 
 */
@@ -66,6 +75,37 @@ a) :nth-child(even) b) :nth-child(odd)
 } */
 
 /*selecciona imapres*/
-p:nth-child(odd){
+/* p:nth-child(odd){
+    background: yellow;
+} */
+
+
+/*2) a)*/
+/* p:nth-child(5){
+    background: yellow;
+} */
+
+/*2) b)*/
+/* p:nth-last-child(5){
+    background: yellow;
+} */
+
+/*3) b)*/
+/* p:nth-last-child(3n){
+    background: yellow;
+} */
+
+/*3) a)*/
+/* p:nth-child(3n){
+    background: yellow;
+} */
+
+/*4) a)*/
+/* p:nth-child(3n+1){
+    background: yellow;
+} */
+
+/*4) b)*/
+p:nth-last-child(2n+1){
     background: yellow;
 }
