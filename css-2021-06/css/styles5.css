@@ -1,0 +1,71 @@
+/* :first-child :last-child*/
+
+
+/*Selecciona el primer o ultimo hijo (respectivamente) de algún elemento HTML determinado. Si seleccionas desde el padre se debe dejar un espacio entre el selector y la pseudoclase:
+ul :first-child{
+	color: red;
+}
+Mientras que si seleccionas desde el hijo no es necesario:
+
+li:last-child{
+	color: red;
+}*/
+
+
+/* ul :last-child {
+    background: yellow;
+} */
+
+
+/* div :first-child {
+    background: red;
+} */
+
+
+/*se pone h2 como primer hijo*/
+
+
+/* h2:first-child {
+    background: red;
+} */
+
+
+/*se pone h3 como último hijo*/
+
+
+/* h3:last-child {
+    background: red;
+} */
+
+
+/*problematica encontrar el primer p y último p.
+La forma de solucionarlo es con : 
+:first-of-type :last-of-type
+
+
+*/
+
+p:first-of-type {
+    /* background: yellow; */
+}
+
+
+
+/* :nth-child()  :nth-last-child() se encuentra un 
+hijo o el ultimo hijo según su posicion
+
+selecciona pares e impares
+a) :nth-child(even) b) :nth-child(odd)
+
+
+*/
+
+/*selecciona pares*/
+/* p:nth-child(even){
+    background: yellow;
+} */
+
+/*selecciona imapres*/
+p:nth-child(odd){
+    background: yellow;
+}
