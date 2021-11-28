@@ -113,15 +113,49 @@ p:nth-last-child(2n+1){
 /* Trucos CSS
 
    A) Encontrar los primeros X elementos
+   B) Encontrar los últimos X elementos
+
+
+   A)  p:nth-child(-n+5){
+    background: yellow;
+    display: block;
+} 
+  B) p:nth-last-child(-n+5){
+    background: yellow;
+    display: block;
+}
 */
 
 /*se muestran los 5 primeros hijos y se ocltan los demás*/
-p{
+/* p{
     display: none;
-}
+} */
 
 /* A) */
-p:nth-child(-n+5){
+/* p:nth-child(-n+5){
     background: yellow;
     display: block;
+} */
+
+/*B) con last*/
+/* p:nth-last-child(-n+5){
+    background: yellow;
+    display: block;
+} */
+
+/* Seleccionar los elementos a partir de un número X*/
+/* p:nth-child(n+5){
+    background: yellow;
+    display: block;
+} */
+
+/*Ocultar a partir del 5*/
+/* p:nth-child(n+5){
+    background: yellow;
+    display: none;
+} */
+/*Ocultar a partir del 5 pero al revés con last*/
+p:nth-last-child(n+5){
+    background: yellow;
+    display: none;
 }
