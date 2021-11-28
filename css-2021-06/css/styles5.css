@@ -107,5 +107,21 @@ a) :nth-child(Xn+-Y) b) :nth-last-child(Xn+-Y)
 
 /*4) b)*/
 p:nth-last-child(2n+1){
+    /* background: yellow; */
+}
+
+/* Trucos CSS
+
+   A) Encontrar los primeros X elementos
+*/
+
+/*se muestran los 5 primeros hijos y se ocltan los demás*/
+p{
+    display: none;
+}
+
+/* A) */
+p:nth-child(-n+5){
     background: yellow;
+    display: block;
 }
