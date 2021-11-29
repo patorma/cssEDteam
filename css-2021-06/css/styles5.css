@@ -166,6 +166,23 @@ p:nth-last-child(2n+1){
 } */
 
 /*Seleccionar todos los elementos que sean impares y a la vez mutiplos de 3*/
-p:nth-child(odd):nth-child(3n){
+/* p:nth-child(odd):nth-child(3n){
     background: yellow;
+} */
+
+/*  seleccionan etiquetas
+:nth-of-type() son para elementos no clases
+:nth-last-of-type() lo mismo perp al revés
+*/
+
+/* .p:nth-child(odd):nth-child(3n){
+    background: yellow;
+}  */
+
+.p:nth-child(3){
+    background: pink;
+}
+
+p:nth-of-type(3){
+ background: lime;
 }
