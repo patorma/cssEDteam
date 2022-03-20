@@ -1,0 +1,16 @@
+/* Fondos (background)
+
+background es un shorthand no es una propiedad especifica son propiedades cuya unica 
+función es agrupar a otras propiedades es como margin 
+
+background: red;
+
+background-color:red;
+
+*/
+
+body{
+    background-color: yellow;
+    background-image: url(../logo_transparente.svg);
+    background-repeat: repeat-y;
+}
